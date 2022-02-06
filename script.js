@@ -35,7 +35,7 @@ function encurtarUrl() {
 
 
 function copiar(){
-    let inputUrl = docuemnt.getElementById("input-url");
+    let inputUrl = document.getElementById("input-url");
 
     inputUrl.select();
     inputUrl.setSelectionRange(0, 99999);
